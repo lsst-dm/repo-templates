@@ -16,17 +16,17 @@ LSST org repo template README
 Description
 -----------
 
-The daf_foo repository is part of the butler 
+The daf_foo repository is part of the butler, a middleware component of the LSST Stack. 
 
 Documentation
 -------------
 
-# live-link-doc
+[![live-link-doc]]
 
 Tested platforms
 -----------
 
-#live-link-test
+[![live-link-test]]
 
 
 Versioning
@@ -47,7 +47,7 @@ Contributing
 
 Pull Requests welcome! 
 
-#live-link-contribute
+[![live-link-contribute]
 
 See Also
 --------
