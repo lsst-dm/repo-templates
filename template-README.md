@@ -56,7 +56,7 @@ root.flatScalingType = 'MEAN'
 root.keysToRemoveFromAssembledCcd = ['AMPNAME']
 ```
 
-Typical usage
+### Typical usage
 ```
  def doIsrTask(ccd, configOverrideFilename=None):
      config = IsrTaskConfig()
@@ -76,7 +76,8 @@ Typical usage
          ccd.write()
 ```
 
-### Usage
+Details
+-------
 
 `pex_config` arose from a desire to have a configuration object holding
 key-value pairs that also allows for (arbitrarily simple or complex) validation
@@ -110,31 +111,6 @@ expose bugs that change configuration values after none should happen.
 
 Finally, the contents of `Config` objects may easily be dumped, for
 provenance or debugging purposes.
-
-### Design goals
-
-* Enable configuration of plug-in algorithms provided at runtime.
-* Allow setting of one `Field` to affect the values and the validation of
-  others.
-* Collocate the `Config` definition with the code using the `Config`.
-* Provide a "Pythonic" interface.
-* Record the file and line of `Field` definitions and all changes to
-  `Field`s, including setting default values.
-* Set defaults before overriding with user-specified values.
-* Support parameters with no (nonexistent) values, including overriding
-  existing default values.
-* Enable closely-related `Config`s to be represented efficiently, with
-  a minimum of duplication.
-* Have all user-modifiable `Config`s be part of a hierarchical tree.
-* Validate the contents of `Field`s as soon as possible.
-* Be able to "freeze" a `Config` to make it read-only.
-* Be able to persist a `Config` to a file and restore it identically.
-* Allow C++ control objects to be created from `Config`s, with documentation
-  and validation specified exactly once.
-* Support lists of parameter values.
-
-Details
--------
 
 <!-- #live-link-doc -->
 
