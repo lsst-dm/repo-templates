@@ -45,7 +45,7 @@ For help please email dm-users@lists.lsst.org
 Contributing
 ------------
 
-Pull Requests welcome! 
+Pull Requests welcome.
 
 
  <!-- #live-link-contribute -->
