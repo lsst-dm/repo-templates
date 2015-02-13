@@ -1,5 +1,5 @@
-LSST org repo template README
-=============================
+`pex_config`: Configuration files for LSST
+==========================================
 
 Overview
 --------
