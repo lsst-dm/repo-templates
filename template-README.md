@@ -1,5 +1,5 @@
-`pex_config`: Configuration files for LSST
-==========================================
+pex_config: Configuration files for LSST
+========================================
 
 Overview
 --------
