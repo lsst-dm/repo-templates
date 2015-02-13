@@ -119,7 +119,7 @@ See Also
 
 #### Documentation
 
-Please see http://doesnt.exi.st.
+See http://doesnt.exi.st.
 
 #### Contributing
 
