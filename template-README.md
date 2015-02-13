@@ -59,22 +59,22 @@ root.keysToRemoveFromAssembledCcd = ['AMPNAME']
 ```
 Typical usage of the `Config` object in Python code:
 ```
- def doIsrTask(ccd, configOverrideFilename=None):
-     config = IsrTaskConfig()
-     if configOverrideFilename is not None:
-         config.load(configOverrideFilename)
-         # Note: config override files are Python code with .py extensions
-         # by convention
-     config.validate()
-     config.freeze()
+def doIsrTask(ccd, configOverrideFilename=None):
+  config = IsrTaskConfig()
+   if configOverrideFilename is not None:
+       config.load(configOverrideFilename)
+       # Note: config override files are Python code with .py extensions
+       # by convention
+   config.validate()
+   config.freeze()
 
-     detectSaturation(ccd, config.fwhm, config.saturatedMaskName)
-     # Note: methods typically do not need the entire config; they should be
-     # passed only relevant parameters
-     for k in config.keysToRemoveFromAssembledCcd:
-         ccd.metadata.remove(k)
-     if config.doWrite:
-         ccd.write()
+   detectSaturation(ccd, config.fwhm, config.saturatedMaskName)
+   # Note: methods typically do not need the entire config; they should be
+   # passed only relevant parameters
+   for k in config.keysToRemoveFromAssembledCcd:
+       ccd.metadata.remove(k)
+   if config.doWrite:
+       ccd.write()
 ```
 
 Details
