@@ -117,10 +117,10 @@ provenance or debugging purposes.
 See Also
 --------
 
-#### Documentation
+#### Contributing
 
+For instructions on how to contribute, see http://dm.lsst.org/#contributing (or just send us a pull request).
 
-#### Contributing and support
+#### Support
 
-For instructions on how to contribute, see http://dm.lsst.org/#contributing
-For help, subscribe to dm-users@lists.lsst.org
+For help, see http://dm.lsst.org/#support
