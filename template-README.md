@@ -21,7 +21,7 @@ the available `Field`s and in setting or modifying their values.  This
 provides great flexibility and introspection while still being approachable to
 non-programmers who need to modify configuration settings.
 
-### Example
+#### Example
 
 Defining a configuration subclass
 ```
@@ -56,7 +56,7 @@ root.flatScalingType = 'MEAN'
 root.keysToRemoveFromAssembledCcd = ['AMPNAME']
 ```
 
-### Typical usage
+#### Typical usage
 ```
  def doIsrTask(ccd, configOverrideFilename=None):
      config = IsrTaskConfig()
@@ -112,28 +112,14 @@ expose bugs that change configuration values after none should happen.
 Finally, the contents of `Config` objects may easily be dumped, for
 provenance or debugging purposes.
 
-<!-- #live-link-doc -->
-
-Tested platforms
------------
-
-<!-- #live-link-test -->
-
-
-Support
--------
-
-For help please email dm-users@lists.lsst.org
-
-
-Contributing
-------------
-
-Pull requests welcome.
-
-<!-- #live-link-contribute -->
-
 See Also
 --------
 
+#### Documentation
 
+Complete documentation for this package is at http://doesnt.exi.st.
+
+#### Contributing and support
+
+For instructions on how to contribute, see http://dm.lsst.org/#contributing
+For help, subscribe to dm-users@lists.lsst.org
