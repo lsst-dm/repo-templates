@@ -23,7 +23,7 @@ non-programmers who need to modify configuration settings.
 
 For complete documentation, please see http://doesnt.exi.st.
 
-#### Example
+#### Typical usage
 
 Defining a configuration subclass:
 ```
@@ -57,8 +57,7 @@ root.saturatedMaskName = 'SATUR'
 root.flatScalingType = 'MEAN'
 root.keysToRemoveFromAssembledCcd = ['AMPNAME']
 ```
-
-#### Typical usage
+Typical usage of the `Config` object in Python code:
 ```
  def doIsrTask(ccd, configOverrideFilename=None):
      config = IsrTaskConfig()
