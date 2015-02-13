@@ -23,7 +23,8 @@ non-programmers who need to modify configuration settings.
 
 For complete documentation, please see http://doesnt.exi.st.
 
-#### Typical usage
+Typical usage
+-------------
 
 Defining a configuration subclass:
 ```
@@ -115,6 +116,10 @@ provenance or debugging purposes.
 
 See Also
 --------
+
+#### Documentation
+
+Please see http://doesnt.exi.st.
 
 #### Contributing
 
