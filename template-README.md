@@ -21,9 +21,11 @@ the available `Field`s and in setting or modifying their values.  This
 provides great flexibility and introspection while still being approachable to
 non-programmers who need to modify configuration settings.
 
+For complete documentation, please see http://doesnt.exi.st.
+
 #### Example
 
-Defining a configuration subclass
+Defining a configuration subclass:
 ```
 import lsst.pex.config as pexConfig
 
@@ -117,7 +119,6 @@ See Also
 
 #### Documentation
 
-Complete documentation for this package is at http://doesnt.exi.st.
 
 #### Contributing and support
 
