@@ -84,10 +84,10 @@ key-value pairs that also allows for (arbitrarily simple or complex) validation
 of configuration values.
 
 To configure code using `pex_config`, a developer subclasses the `Config`
-class. The subclass definition specifies the available `Field`\ s, their
+class. The subclass definition specifies the available `Field` s, their
 default values (if any), and their validation, if necessary.
 
-`Config`\ s are hierarchical (see `ConfigField`), so calling code can embed
+`Config` s are hierarchical (see `ConfigField`), so calling code can embed
 the configuration definitions of called code.
 
 Configurations are *not* input data.  They should not be used in place of
